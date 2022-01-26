@@ -15,4 +15,4 @@ while abs(number) < 1:
     i += 1
     number = round(number, grade - i)
     number *= 10
-    print(int(number))
+    print('Мантисса: ', int(number))
